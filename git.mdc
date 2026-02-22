@@ -1,0 +1,8 @@
+---
+description: Git commit format and when to commit after making changes. Apply when making code or config changes so the agent commits automatically.
+alwaysApply: true
+---
+# Git commits
+
+- After completing a batch of code or config changes, stage the changed files and commit automatically (unless the user has asked not to, or the repo is not the current workspace).
+- Every commit message must start with `[Cursor]` (e.g. `[Cursor] fix: correct date formatting` or `[Cursor] feat(auth): add login endpoint`).
